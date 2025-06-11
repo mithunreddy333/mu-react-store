@@ -18,6 +18,10 @@ export default function Header({ name }) {
           <li>
             <Link to="/cart">Cart</Link>
           </li>
+          <li>
+            <Link to="/test">Test</Link>
+          </li>
+
 
           <li>
             {email ? (
